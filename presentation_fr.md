@@ -26,11 +26,10 @@ On utilise la principe d' unification <<>> pour affecter une valeur à une varia
 Une constante commence toujours par une lettre minuscule (jean, belfort..), une chaine de caractère est entourée par des guillemets simples.
 constante et chaines constituent des atomes.
 
-#####PREDICATS
+##### PREDICATS
 
 On parle de prédicat et non de fonction. Un prédicat s'organise en clauses.
 Un prédicat ne retourne pas de valeur: soit elle s'exécute, soit elle échoue. On affecte les valeurs des variables passées en paramètres par « unification ». Par convention, les variables en entrée sont placées à gauche et les variables en sortie sont placées à droite, mais l'unification peut se faire dans les deux sens. 
-
 
 ##### PREDICATS EXAMPLES
 
@@ -64,9 +63,7 @@ Une clause est généralement composée de plusieurs buts separés par virgules 
    Un prédicat est identifié à la fois par son nom et par le nombre de ses arguments. Ainsi, le prédicat __predicat/2__ (2 arguments) est fondamentalement différent du prédicat __predicat/3__ (3 arguments).
   Le nombre d'arguments d'un prédicat s'appelle *__ARITE__*
   
-  
-
-#####ANATOMIE D'UN PREDICAT PROLOG
+##### ANATOMIE D'UN PREDICAT PROLOG
 
   Diagramme:
 
