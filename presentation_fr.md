@@ -11,7 +11,7 @@ Prolog est un langage utilisé dans les domaines de l'Intelligence Artificielle 
         plusieurs lignes
     */
 
-#####VARIABLES
+##### VARIABLES
     
 Une variable commence toujours par majuscule (X, Michael, ..)
 
@@ -31,7 +31,7 @@ constante et chaines constituent des atomes.
 On parle de prédicat et non de fonction. Un prédicat s'organise en clauses.
 Un prédicat ne retourne pas de valeur: soit elle s'exécute, soit elle échoue. On affecte les valeurs des variables passées en paramètres par « unification ». Par convention, les variables en entrée sont placées à gauche et les variables en sortie sont placées à droite, mais l'unification peut se faire dans les deux sens. 
 
-##### PREDICATS EXAMPLES
+##### PREDICATS EXAMPLES
 
     habite(fahmi, rabat). % Fahmi habite à Rabat
 
