@@ -1,2 +1,2 @@
-# quick_prolog
+# Quick Prolog
 Logical Programming using prolog
