@@ -41,7 +41,7 @@ Un prédicat ne retourne pas de valeur: soit elle s'exécute, soit elle échoue.
             Personne = Fahmi
     */
 
-/* Mecanisme de "*__backtracking__*" our "*__retour sur trace__*" : l'unification peut se faire dans les 2 sens. Après exécution d'une clause (réussie ou non), Prolog revient dans l'état précédent l'exécution de la clause et évalue la clause suivante, si elle existe */
+Mecanisme de "*__backtracking__*" our "*__retour sur trace__*" : l'unification peut se faire dans les 2 sens. Après exécution d'une clause (réussie ou non), Prolog revient dans l'état précédent l'exécution de la clause et évalue la clause suivante, si elle existe */
 
     habite(fahmi, fes).
     habite(laurent, meknes).
